@@ -2,7 +2,7 @@ const gitnode = require('@izanamidev/gitnode');
 
 const git = gitnode();
 
-console.log("Hello")
+console.log("Will it work")
 
 git.status((err,res)=>{
     if(err){console.error(err)};
